@@ -9,7 +9,7 @@
 //3. повесить слушателя на клик на всю ul что бы доавился класс checked на li
 //4
 // import fillTasksList from "../interfaceLsChecklist/renderOldNotes.js";
-import * as lsItnerface from "../interfaceLsChecklist/interfaceLS.js";
+import * as lsItnerface from "./interfaceLsChecklist/interfaceLS.js";
 
 const refs = {
   noteListItem: document.getElementsByTagName("li"),
